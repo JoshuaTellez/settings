@@ -17,3 +17,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 # Autocomplete
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # plugins = (...zsh-autosuggestions)
+
+# Increase history size
+export HISTFILESIZE=10000000
+export HISTSIZE=10000000
