@@ -116,6 +116,8 @@ alias gsh='git stash'
 alias gp='git pull'
 alias gclear='git brach | grep -v "develop\|master\|main" | xargs git branch -D'
 
-
+# My aliases
+alias h='history'
+alias path='echo -e ${PATH//:/\\n}'
 alias profile='code ~/.zshrc'
 alias src='source ~/.zshrc'
