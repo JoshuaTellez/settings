@@ -11,4 +11,9 @@ code
 # Add Highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 # Add to .zshrc file
-plugins=(git zsh-syntax-highlighting)
+# plugins=(git zsh-syntax-highlighting)
+
+
+# Autocomplete
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# plugins = (...zsh-autosuggestions)
